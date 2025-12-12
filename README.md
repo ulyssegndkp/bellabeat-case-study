@@ -1,3 +1,6 @@
+Links: [Medium article](https://medium.com/@ulysse.gnidokponou/how-can-a-wellness-technology-company-play-it-smart-cb2462a6f1d1)
+[Tableau Public dashboard](https://public.tableau.com/app/profile/ulysse.gnidokponou/viz/BELLABEAT_17654102267480/Sheet1)
+
 # Bellabeat Case Study – Smart Device Usage Analysis
 
 This repository contains my end-to-end data analysis of Bellabeat smart device data,
