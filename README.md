@@ -41,3 +41,10 @@ data/processed/        # merged & aggregated datasets ready for viz
 tableau/               # Tableau workbook (.twbx)
 figures/               # exported charts used in the Medium article
 docs/                  # additional notes or exports
+
+R/                     # R scripts for cleaning and analysis
+data/raw/              # original Kaggle CSVs
+data/processed/        # merged & aggregated datasets ready for viz
+tableau/               # Tableau workbook (.twbx)
+figures/               # exported charts used in the Medium article
+docs/                  # additional notes or exports
