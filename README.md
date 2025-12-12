@@ -34,16 +34,36 @@ Files used in this analysis:
 
 ## 3. Tools
 
-- R (tidyverse, lubridate, janitor, etc.)
-- Tableau Public
-- Medium (for the written case study)
+- R (tidyverse, janitor, lubridate) — data preparation & analysis
+- Tableau Public — interactive visualizations
+- GitHub — portfolio hosting & version control
+- Medium — narrative case study write-up
 
 ## 4. Project Structure
 
 ```text
-R/                     # R scripts for cleaning and analysis
-data/raw/              # original Kaggle CSVs
-data/processed/        # merged & aggregated datasets ready for viz
-tableau/               # Tableau workbook (.twbx)
-figures/               # exported charts used in the Medium article
-docs/                  # additional notes or exports
+bellabeat-case-study/
+│
+├── R/
+│   ├── 01_setup_and_load.R          # Libraries, data loading
+│   ├── 02_merge_and_export_daily.R  # Cleaning, merging, export
+│   ├── 03_steps_activity_by_day.R   # Weekly activity analysis
+│   └── 04_sleep_summary.R           # Sleep metrics & efficiency
+│
+├── data/
+│   ├── raw/                         # Original Fitbit CSV files
+│   └── processed/
+│       └── rstudio-export/          # Cleaned datasets for Tableau
+│
+├── figures/
+│   ├── avg_steps_per_day.png
+│   ├── avg_distance_per_day.png
+│   ├── avg_sedentary_per_day.png
+│   ├── steps_vs_kcal.png
+│   ├── vam_vs_kcal.png
+│   └── sleep_vs_sedentary.png
+│
+├── BELLABEAT.twbx                   # Tableau packaged workbook
+├── README.md
+└── docs.md                          # Supplementary documentation
+
